@@ -1,5 +1,5 @@
-//This is the firstname of the user //
-const user = ("Lentswe")
-// This is the lastname of the user //
-const surname = ("Mokotedi")
-console.log(user, surname)
+import {company,year}from "./configuration.js"
+import year form './configuration.js'
+
+var message = ' © ' + company +' '(' + year + ')'
+document.querySelector('footer').innerText = message

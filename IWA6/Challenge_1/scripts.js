@@ -6,6 +6,7 @@ const secondaryPhone = '0219131568'
 const primaryValid = (Number(primaryPhone)) == primaryPhone 
 const secondaryValid = (Number(secondaryPhone)) == secondaryPhone
 
+
 console.log('Primary phone is valid numerical string:', primaryValid)
 console.log('Secondary phone is valid numerical string:', secondaryValid)
 

@@ -12,13 +12,9 @@ const batteries = 35 * 2;
 const pens = 5 * NONE_SELECTED;
 if (locationL === 'RSA') {
   shipping = 400;
-} else if (locationL === 'NAM') {
-  shipping = 600;
-} else if (locationL === 'NK') {
-  console.log(BANNED_WARNING);
-} else {
-  shipping = 800;
-}
+} else  {
+  shipping = locationL === 'NAM' ? 600 : 800}
+
 const subtotal = shoes + toys + shirts + batteries + pens;
 if ((subtotal >= 1000) && (locationL === 'RSA' || locationL === 'NAM') && (customers === 1)) {
   shipping = 0;

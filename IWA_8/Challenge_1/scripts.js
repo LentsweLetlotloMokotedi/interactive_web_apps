@@ -4,7 +4,7 @@ const leoStreet = 'Church St.'
 const leoPostal = '3105'
 const leoBalance = '-10'
 
-const sarahName = 'Sarah'
+const sarahName = 'Sarah    '
 const sarahSurname = 'Kleinhans'
 const sarahBalance = '-4582.21000111'
 const sarahNumber = '13'
@@ -21,9 +21,9 @@ const leo = {
   address: {
     number: leoNumber,
     street: leoStreet,
-    'postal-code': leoPostal 
+    'postal-code': leoPostal ,
   }
-};
+}
 
 const sarah = { 
   name: sarahName + sarahSurname,
@@ -35,7 +35,7 @@ const sarah = {
     street: sarahStreet,
     'postal-code': sarahPostal
   }
-};
+}
 
 console.log(leo, leo.address['postal-code']);
 console.log(sarah, sarah.address['postal-code']);

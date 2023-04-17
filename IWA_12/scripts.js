@@ -63,7 +63,8 @@ const shelf = book3.checkin
 const checkIn = shelf.style.color = ''
 
 
-
+books[0].html.checkin.style.color = '' 
+books[0].html.status.style.color = STATUS_MAP[books[0].status].color books[0].html.reserve.disabled = !STATUS_MAP[books[0].status].canReserve books[0].html.checkout.disabled = !STATUS_MAP[books[0].status].canCheckout books[0].html.checkin.disabled = !STATUS_MAP[books[0].status].canCheckIn
 
 
 

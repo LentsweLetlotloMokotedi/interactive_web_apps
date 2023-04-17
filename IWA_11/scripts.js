@@ -31,3 +31,13 @@ document.querySelectorAll('.pancakes dd')[2].innerText = pancake3
 document.querySelectorAll('.status dd')[2].innerText =status3
 //added tenery operator (? :) is used to check the value of the 'data delivered' attribite and set the text content accordingly.
 //added the 'getAttribute' property to set of the element based on the corresponding data attributes.
+
+
+orders: { 1: { root: document.querySelector('[data-key="order1"]'), biscuits: document.querySelector('[data-key="order1"] .biscuits .count'), donuts: document.querySelector('[data-key="order1"] .donuts .count'), pancakes: document.querySelector('[data-key="order1"] .pancakes .count'), status: document.querySelector('[data-key="order1"] .status dd') },
+
+
+
+
+
+
+

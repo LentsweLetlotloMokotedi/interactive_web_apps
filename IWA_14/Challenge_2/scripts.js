@@ -19,7 +19,7 @@ const example1 = {
 	internal: {
 		a: 2,
 		b: 4,
-		c: 8,8
+		c: 8,
 	},
 	add,
 	multiply,

@@ -1,3 +1,26 @@
+// scripts.js
+
+const MONTHS = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+]
+
+const getDaysInMonth = (date) => new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate()
+
+// Only edit below 
+
+
+
 const createArray = (length) => {
     const result = [];
     for (let i = 0; i < length; i++) {
@@ -71,10 +94,6 @@ const current = new Date()
 document.querySelector('[data-title]').innerText = `${MONTHS[current.getMonth()]} ${current.getFullYear()}`
 const data = createData()
 document.querySelector('[data-content]').innerHTML = createHtml(data)
-[11:58 AM] link css and script and
-
-
-
 
 
 
